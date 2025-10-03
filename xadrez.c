@@ -20,5 +20,16 @@ int main () {
         r++;
     } while (r <= 8);
 
+    //Mover o cavalo duas casas pra baixo e uma pra direita.
+    int c = 1;
+    
+    while (c--)
+    {
+        for(int i = 0; i < 2; i++) {
+            printf("Cima\n");
+    }
+    printf("Direita\n");
+    }
+
     return 0;
-}
+    }
